@@ -36,7 +36,12 @@
         font-size: 51px;
         align-items: center;
 
+    } 
+    #texto-plano-pet {
+        font-family: 'Bungee', cursive;
+        color: #FFFFFF;
     }
+
     h3 {
         font-family: 'Bungee', cursive;
         color: #fefefe;
@@ -117,6 +122,11 @@
         font-size: 51px;
 
     }
+    #texto-plano-pet {
+        font-family: 'Bungee', cursive;
+        color: #FFFFFF;
+    }
+
     h3 {
         font-family: 'Bungee', cursive;
         color: #fefefe;
@@ -200,6 +210,10 @@
         font-size: 51px;
 
     }
+    #texto-plano-pet {
+        font-family: 'Bungee', cursive;
+        color: #FFFFFF;
+    }
     h3 {
         font-family: 'Bungee', cursive;
         color: #fefefe;
@@ -277,6 +291,10 @@
         color: #F37145;
         font-size: 51px;
 
+    }
+    #texto-plano-pet {
+        font-family: 'Bungee', cursive;
+        color: #FFFFFF;
     }
     h3 {
         font-family: 'Bungee', cursive;
