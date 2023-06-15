@@ -10,10 +10,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Assets/logo.svg"/>
     <title>Petshop</title>
 </head>
 
 <body>
+    <a name="topo"></a>
     <div id="home" class="container-fluid ">
         <nav class="navbar  navbar-expand-lg bg">
             <div class="container ">
@@ -29,7 +31,7 @@
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                         <a class="nav-link" href="#">serviços</a>
-                        <a class="nav-link " href="#">contato</a>
+                        <a class="nav-link " href="contato.html">contato</a>
                         <a class="nav-link " href="sobrenos.html">sobre</a>
                     </div>
                 </div>
@@ -56,10 +58,50 @@
         </section>
     </div>
     <section id="servicos">
-
+        <div class="row justify-content-center mt-5"></div>
+            <div class="col-md-5 border">
+                <h1 id="texto-terceiro">Nossos serviços</h1>
+                <div class="border">
+                <h3>banho e tosa</h3>
+                <h3>Serviços veterinários</h3>
+                <h3>Spa</h3>
+                <h3>taxi dog</h3>
+                <h3>Exames loboratoriais</h3>
+                <h3>hospedagem</h3>
+                <h3>delivery</h3>
+            </div>
+        </div>
+        <div class="col-md-7 border ">
+            <img class="charleseluvio-img" src="Assets/charleseluvio.svg" alt="Doguinho" />
+            <div class="preco">
+                <p>A partir de</p>
+            <h4>R$ 74,90</h4>
+        </div>
+        </div>
+        </div>
     </section>
 
-
+    <section id="sobrenos">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-5 border">
+              <h1 id="texto-principal" >Sobre Nós</h1><hr />
+              <p id="texto-sobre">
+                Bem-vindo(a) à Petshop Felicidade Animal! Somos apaixonados por animais
+                e dedicados a proporcionar a melhor experiência para o seu pet.
+                  Nossa equipe altamente treinada oferece uma ampla gama de serviços,
+                  incluindo banho e tosa, atendimento veterinário, loja de produtos
+                  especializada e hospedagem. Nossas instalações seguem padrões rigorosos
+                    de segurança e bem-estar animal, garantindo que seu companheiro peludo
+                    se sinta confortável e amado durante sua visita. Confie em nós para
+                    cuidar do seu pet com carinho, profissionalismo e dedicação.
+                    Sua felicidade animal é a nossa prioridade!
+              </p>
+            </div>
+            <div class="col-md-6 border ">
+              <img class="hero-dog-img" src="Assets/cachorro.png" alt="cachorrinho">
+            </div>
+          </div>
+    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
@@ -67,9 +109,9 @@
         crossorigin="anonymous"></script>
 </body>
 <footer class="copyright">
-    <a href="Index.html">
+    <a href="Index.html"></a>
       
-        <p>©  2023 - petshop todos os direitos reservados</p> 
+        <p id="copyright-text">©  2023 - petshop todos os direitos reservados</p> 
     <a id="voltar" href="#topo">Voltar ao topo</a>
   </footer>
 </html>
